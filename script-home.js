@@ -52,7 +52,7 @@ const playList = [
   },
   {
    name: "Punorjonmo | পুনর্জন্ম",
-   singer: "Feat By Condopith"
+   singer: "Feat By Condropith"
   }
   ]
  
