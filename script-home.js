@@ -48,11 +48,11 @@ const playList = [
   },
   {
    name: "Ektukhani",
-   singer: "Minar Rahman"
+   singer: "Feat By Minar Rahman"
   },
   {
    name: "Punorjonmo | পুনর্জন্ম",
-   singer: "Condopith"
+   singer: "Feat By Condopith"
   }
   ]
  
