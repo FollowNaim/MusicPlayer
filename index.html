@@ -14,25 +14,30 @@
  <div class="music-player">
   <nav>
    <div class="circle">
-    <i class="fa-solid fa-chevron-left"></i>
+    <a href="https://naim.vercel.app" target="_blank"><i class="fa-solid fa-chevron-left"></i></a>
    </div>
     <div class="circle">
-     <i class="fa-solid fa-bars"></i>
+    <a href="https://naim.vercel.app" target="_blank"><i class="fa-solid fa-bars"></i></a>
     </div>
   </nav>
-  <img src="thumbnail.png" alt="">
+  <div class="imgContainer">
+   <img src="thumbnail.png" alt="">
+  </div>
   <div class="img-content">
-   <h2>Depression</h2>
-   <p>Feat By Arian Kajol</p>
+   <h2 id="name"></h2>
+   <p id="singer"></p>
   </div>
   <audio controls id="song">
-   <source src="media/Bhalobeshe Bhul Korini _ Ishan _ Asif Iqbal _ Apurba _ Mamo _ OST - Shesh Porjonto _ New Bangla Song(MP3_160K).mp3" type="audio/mpeg">
+   <source src="/media/01.mp3" type="audio/mpeg">
   </audio>
-  <input type="range" value="0" id="progress">
+  <div class="progress">
+   <span id="totalTime">00:00</span>
+  <input type="range" value="0" id="progress"><div class="time"> <span id="time">00:00</span>
+  </div></div>
   <div class="controls">
-   <i class="fa-solid fa-backward"></i>
+   <i class="fa-solid fa-backward" id="backBtn"></i>
    <i onclick="playpause()" class="fa-solid fa-play" id="ctrlIcon"></i>
-   <i class="fa-solid fa-forward"></i>
+   <i class="fa-solid fa-forward" id="nextBtn"></i>
    
   </div>
  </div>
